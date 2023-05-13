@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(226, 215, 195);
+}
+
+.board-rows{
+    display: flex;
+    justify-content: center;
+}
+.board-columns{
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+    display: flex;
+}
+#board{
+    margin-top: 10%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.X {
+    margin: auto;
+}
+.O {
+    margin:auto;
+}
+#X {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    width: 30vw;
+    height: 30vh;
+    font-size: 100px;
+    background-color: rgba(40, 1, 56, 0.548);
+    border-radius: 2%;
+    border: 1px solid black;
+}
+#O {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    width:30vw;
+    height: 30vh;
+    font-size: 100px;
+    background-color: rgba(3, 46, 165, 0.603);
+    border-radius: 2%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#X:hover{
+    background-color: rgba(23, 1, 41, 0.795);
+}
+#O:hover{
+    background-color: rgba(5, 3, 112, 0.801);
+}
+.form-div{
+    position:absolute;
+    top: 18%;
+    left: 33%;
+    right: 33%;
+    height: 18%;
+    background-color: rgba(240, 255, 255, 0.459);
+    border-radius: 2%;
+    border: 1px solid black;
+    height: 275px;
+    
+}
+
+.number-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-btns{
+    background-color: rgb(194, 154, 105);
+    width: 150px;
+    height: 100px;
+    margin:10px;
+    border: 1px dashed black;
+    border-radius: 4px;
+    font-size: larger;
+}
+.number-btns:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.msg{
+    position: absolute;
+    top: 18%;
+    left: 33%;
+    right: 33%;
+    bottom: 18%;
+    height: 15vh;
+    background-color: rgba(224, 225, 226, 0.733);
+    display: none;
+}
+.msg-btns{
+    display: flex;
+    justify-content: center;
+}
+#reset-btn{
+    height:33%;
+    margin-right: 10px;
+}
+#play-again{
+    height: 33%;
+    margin-left: 10px;
+}

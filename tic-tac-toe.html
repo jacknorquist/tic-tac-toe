@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="choose-mark">
+        <h2>Choose Your Mark</h2>
+    </div>
+    <div class="form-div">
+            <h2>Choose Your Grid Size</h2>
+            <div class="number-div">
+                <button id="3-btn" class="number-btns">9</button>
+                <button id="4-btn" class="number-btns">16</button>
+                <button id="5-btn" class="number-btns">25</button>
+            </div>
+    </div>
+    <div id="board"></div>
+    <div class="msg" id="winner-msg">
+        <h2>You Won!</h2>
+        <div class="msg-btns">
+            <button id="reset-btn">Reset</button>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+    <div class="msg" id="loser-msg">
+        <h2>You Lost!</h2>
+        <div class="msg-btns">
+            <button id="reset-btn">Reset</button>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="X">X</button>
+        <button id="O">O</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>
